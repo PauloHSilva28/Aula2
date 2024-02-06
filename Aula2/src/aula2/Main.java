@@ -1,18 +1,17 @@
 package aula2;
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		Pc Pc_1 = new Pc();
+		Scanner sc = new Scanner(System.in);
+		Cachoroooo cachorro = new Cachoroooo();
 		
-		Pc_1.modelo="PtXgamer";
-		Pc_1.Processador="AMD Ryzen 47";
-		Pc_1.Portas_USB=5;
-		Pc_1.Armazenamento=256;
+		System.out.print("Digite o Nome: ");
+        cachorro.setNome(sc.nextLine());
 		
-		Pc_1.GetPc();
+		cachorro.getNome();
 	}
 
 }

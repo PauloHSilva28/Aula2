@@ -1,24 +1,35 @@
 package aula2;
 
 public class Cachoroooo {
-	public String nome;
-	public String raca;
-	public int idade;
-	public String cor;
+	private String nome;
+	private String raca;
+	private int idade;
+	private String cor;
 	
 	
-	
-	
-	public void latir() {
-		System.out.println("O cachorro :" + nome + "latiu");
+	public String getNome() {
+		return nome;
+	}
+	public String getRaca() {
+		return raca;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	public String getCor() {
+		return cor;
 	}
 	
-	public void GetCahoroooo() {
-		System.out.println(
-				"Nome: " + nome +
-				"\nRaça: " + raca +
-				"\nIdade : " + idade +
-				"\nCor: " + cor
-				);
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public void setRaca(String raca) {
+		this.raca = raca;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	public void setCor(String cor) {
+		this.cor = cor;
 	}
 }
